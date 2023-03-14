@@ -1,0 +1,323 @@
+ *{
+        padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+      }
+
+    #wrapper{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #8c8d8f;
+    }
+    .cotainer{
+        width: 75%;
+        margin: auto;
+    }
+    
+    #menu {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 75px;
+          margin-bottom: 45px;
+        }
+
+    #menu trai {
+      display: flex;
+      justify-content: space-between;
+      width: 20%;
+    }
+
+    #menu phai{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+    
+#container{
+    padding: 30px;
+    margin-left: 20px;
+}
+
+#home-menu {
+    padding-bottom: 15px;
+}
+
+.home-cotainer {
+    display: flex;
+}
+#img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+.btnSeller,
+.btnSeller1{
+ height: 30px;
+width: 80;
+background-color: #ffc975;
+border: none;
+border-radius: 20px;
+color: #88898b;
+}
+
+. home-items-left{
+    flex: 4;
+    display: flex;
+}
+.home-items-right {
+    padding-left: 100px;
+    flex: 6;
+}
+
+.danhgia>span {
+    padding-right: 20px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add {
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    margin-right: 10px;
+    border: 1px solid gray;
+    height: 40px;
+    line-height: 40px;
+}
+.checkout {
+    text-align: center;
+    width: 250px;
+    background-color: rgb(21, 205, 95);
+    height: 40px;
+    line-height: 40px;
+}
+
+.relate {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.san {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemre>img {
+    width: 100%;
+}
+.hinhnho {
+    position: relative;
+    right: -150px;
+}
+
+.cantien{
+    display: flex;
+    align-items: center;
+}
+
+.fontnho{
+    font-size: 11px;
+}
+
+.giaotren{
+    align-items: center;
+    display: flex;
+}
+
+.price-container{
+                    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-item{
+    display: flex;
+    align-items: center;
+}
+
+.price-item>span{
+    opacity: 0.6;
+    margin-left: 10px;
+}
+.navbe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbe>div{
+    padding:0px 60px;
+    text-align: center;
+    border-left: 1px solid rgb(239, 226, 226);
+    border-right: 1px solid rgb(227, 216, 216);
+    color: rgb(106, 174, 151);
+}
+.benefit{
+    margin-top: 60px;
+}
+.content-be{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.ctbe{
+    margin-right: 60px;
+    flex: 6;
+}
+
+.ctbe h2{
+    margin-top: 20px;
+}
+
+.ing h1{
+    margin-bottom: 15px;
+}
+.flexne{
+    display: flex;
+    justify-content: space-between
+}
+
+.benefit{
+    margin-top: 60px;
+}
+.content-be{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.ctbe{
+    margin-right: 60px;
+    flex: 6;
+}
+.flexne div{
+    width: 350px;
+}
+
+.flexne p{
+    color: gray;
+}
+.mr-10{
+    margin-right: 10px;
+}
+
+.nutne{
+    padding: 8px 50px;
+    border: 1px solid rgb(61, 199, 61);
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 560px;
+    border-radius: 3px;
+    color: rgb(61, 199, 61);
+}
+.container-fuild{
+    width: 100%;
+    background-color: rgb(250, 243, 243);
+    margin-top: 60px;
+    
+}
+
+.ct{
+    display: flex;
+}
+
+.ct1{
+    flex: 4;
+
+}
+
+.ct2{
+    flex: 7;
+}.flexneba{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.revi{
+    margin: 20px 0;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.phn{
+    display: flex;
+    justify-content: space-between;
+}
+.phn1{
+    flex: 1;
+    margin-right: 20px;
+    
+}
+.phn2{
+    flex: 1;
+}
+.xuong{
+    position: relative;
+    left:5px;
+    float: right;
+    margin-left: 20px;
+}
+.p-5{
+    padding:10px 10px;
+}
+
+.phn1a{
+    border: 1px solid rgb(142, 225, 142);
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.xam{
+    border: 1px solid gainsboro;
+}
+
+.bg-black{
+    background-color: black;
+}
+.chutrang{
+    color:white;
+    padding: 50px 0;
+}
+.bentrai++{
+    display: flex;
+    justify-content: flex-start;
+    flex:3;
+}
+
+.bentrai1{
+    padding-right: 60px;
+}
+
+.disflex{
+    display: flex;
+    justify-content: space-between;
+}
+#benphai++{
+    flex: 1;
+    
+}
+
+.emial{
+    padding: 7px 17px;
+}
+
+.mailmail{
+    background-color: aquamarine;
+    position: absolute;
+    height: 31.2px;
+    top:3776px;
+    border-radius: 4px;
+    line-height: 31.2px
+}
+
+
+  </style>
